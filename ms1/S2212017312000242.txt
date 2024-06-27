@@ -1,0 +1,9 @@
+CEPARCO - S11
+Ibaoc, Christian Gabriel P.
+Sia, Chantal Hyacynth S.
+Valero, Nigel Kristoffer C.
+Veloso, Antonio Luiz G.
+
+"Optimization of Eigenface Algorithm for Facial Recognition Using AVX2"
+Short Video Link of Project:
+https://drive.google.com/file/d/1G6mHp4l4eV6HQFxof_uJD_wB2EPe946L/view?usp=sharing
