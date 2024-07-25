@@ -155,6 +155,10 @@
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">eigen.obj</Outputs>
     </CustomBuild>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="CMake\bin\cmake-gui.exe" />
+    <None Include="CMake\bin\cmake.exe" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

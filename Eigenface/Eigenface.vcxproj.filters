@@ -24,4 +24,8 @@
       <Filter>Source Files</Filter>
     </CustomBuild>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="CMake\bin\cmake.exe" />
+    <None Include="CMake\bin\cmake-gui.exe" />
+  </ItemGroup>
 </Project>
