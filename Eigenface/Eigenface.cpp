@@ -29,11 +29,11 @@ extern "C" int asmweights(double* eV, double* imgVector, double *weights , uint8
 extern "C" int eigPart1(double* weights, double * img, double* wPerImgPtr, uint8_t counter, uint16_t length, int imgN);
 extern "C" int eigPart2(double* weights, double* wPerImgPtr, double* eigFace, uint8_t counter, uint16_t length, int imgN);
 
-#define trsize 4
+#define trsize 8
 #define width 128
 #define height 128
 #define precision 1e-3
-#define setting true
+#define setting false
 
 static array<Mat, trsize> getImgtoGray()
 {
@@ -186,6 +186,7 @@ vector<uint8_t> normalize(array<vector<uint8_t>, trsize> &imgVectors)
         for (int im = 0; im < trsize; im++)
         {
             imgVectors[im][i] = (imgVectors[im][i] > imageVector[i]) ? (imgVectors[im][i] - imageVector[i]) : 0;
+            //imgVectors[im][i] -= imageVector[i];
         }
     }
     return imageVector;
@@ -621,7 +622,8 @@ void vidCap(MatrixXd &eigenvectors, MatrixXd &eigenfaces, vector<uint8_t> normal
         fill(inputEigen.begin(), inputEigen.end(), 0.0);
         for (int i = 0; i < inputVector.size(); i++)
         {
-            inputVector[i] -=  normal[i];
+            //inputVector[i] -=  normal[i];
+            inputVector[i] = (inputVector[i] > normal[i]) ? (inputVector[i] - normal[i]) : 0;
         }
         //cout << "check0";
         if (cond)
