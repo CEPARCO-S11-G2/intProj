@@ -21,4 +21,4 @@ Short Video Link Explaining Manual Trace:
 
 https://drive.google.com/file/d/183HEeuqm-ey_xgXQLfot6T7NYbIkf1Yb/view?usp=sharing
 
-Check the final output in the master branch.
+# CHECK FINAL OUTPUT IN MASTER BRANCH.
