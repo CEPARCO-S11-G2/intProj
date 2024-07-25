@@ -20,3 +20,5 @@ https://docs.google.com/spreadsheets/d/13gT9_Zi9RBn5mlb5xKPUNn6WFSK61Jjrf1WpNB8Z
 Short Video Link Explaining Manual Trace:
 
 https://drive.google.com/file/d/183HEeuqm-ey_xgXQLfot6T7NYbIkf1Yb/view?usp=sharing
+
+Check the final output in the master branch.
